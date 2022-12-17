@@ -19,8 +19,8 @@ class CTest2 extends Thread
 public class Class3 {
 
 	public static void main(String[] args) {
-		CTest hi = new CTest("Hello");
-		CTest bye = new CTest("Good Bye");
+		CTest2 hi = new CTest2("Hello");
+		CTest2 bye = new CTest2("Good Bye");
 		hi.start();
 		bye.start();
 	}
